@@ -14,16 +14,20 @@ How to install the opencv
 ** We can be not care it **
 
 * cmake to build 
+
     sudo apt-get install cmake
 
 * gcc 
+
     anyway
 
 * libgtk for highgui 
+
     sudo apt-get install libgtk2.0-dev
     sudo apt-get install pkg-config
 
 * install
+
     cd opencv-2.4.9; mkdir build; cd build; 
     cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/roubo/lib/opencv/
      ..
